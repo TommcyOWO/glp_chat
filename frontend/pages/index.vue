@@ -1,7 +1,9 @@
 <template>
-  <div>
-    {{ $t('test') }}
-  </div>
+  <ion-page>
+    <div>
+      eeeeeeasde
+    </div>
+  </ion-page>
 </template>
 
 <script setup lang="ts">

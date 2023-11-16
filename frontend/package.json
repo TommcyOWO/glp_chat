@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -18,8 +20,16 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@capacitor/app": "5.0.6",
+    "@capacitor/cli": "5.5.1",
+    "@capacitor/core": "5.5.1",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.6",
+    "@capacitor/status-bar": "5.0.6",
+    "@master/css": "^2.0.0-beta.201",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/core": "^10.5.0",
     "@vueuse/nuxt": "^10.5.0"
-  }
+  },
+  "version": "0.0.0"
 }
